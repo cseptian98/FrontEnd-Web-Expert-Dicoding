@@ -1,0 +1,52 @@
+{
+    "name": "Mini Resto Apps",
+    "short_name": "Mini Resto",
+    "description": "List of Restaurant based on API from Dicoding",
+    "theme_color": "#1d2d50",
+    "background_color": "#133b5c",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "images/resto-icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "images/icons/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/icons/favicon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icons/apple-touch-icon-180x180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "images/icons/favicon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/icons/favicon-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/icons/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "images/icons/favicon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        }
+    ]
+  }
