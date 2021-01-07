@@ -5,11 +5,11 @@ class HomeMenu {
   static async render() {
     return `
       <section class="jumbotron">
-        <img src="./images/heros/hero-large.jpg"
-          srcset="./images/heros/hero-small.jpg 480w, ./images/heros/hero-large.jpg 1080w"
+        <img src="./images/heros/hero-big.jpg"
+          srcset="./images/heros/hero-little.jpg 480w, ./images/heros/hero-big.jpg 1080w"
           sizes="(max-width: 600px) 480px, 1080px"
           alt="Heroes Image">
-        <h1 class="jumbotron__title">You Are What You Eat</h1>
+        <h1 class="jumbotron__title">Hello!</h1>
       </section>
 
       <article id="content">

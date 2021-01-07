@@ -1,349 +1,345 @@
 body,
 html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #1d2d50;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #f3f9fb;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    color: #1d2d50;
+   font-family: 'Fredoka One', cursive;
+   font-size: 12px;
 }
 
 .skip-link {
-    position: absolute;
-    left: 0;
-    top: -40px;
-    background-color: darkblue;
-    color: white;
-    text-decoration: none;
-    padding: 8px;
-    z-index: 100;
+   position: absolute;
+   left: 0;
+   top: -40px;
+   background-color: darkblue;
+   color: white;
+   text-decoration: none;
+   padding: 8px;
+   z-index: 100;
 }
 
 .skip-link:focus {
-    top: 0;
+   top: 0;
 }
 
 header {
-    height: 75px;
+   height: 75px;
+   background-color: #f3f9fb;
 }
 
 .header__title {
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 2em;
-    font-family: 'Permanent Marker', cursive;
-    color: #fff;
-    top: 18px;
+   text-decoration: none;
+   font-weight: 300;
+   font-size: 2em;
+   font-family: 'Fredoka One', cursive;
+   color: #113f67;
+   top: 22px;
+}
+
+.header__title:hover {
+   font-weight: bolder;
+   color: #226597;
 }
 
 #hamburgerButton {
-    font-size: 20px;
-    margin: 20px 0 0 20px;
-    background: #fcdab7;
+   font-size: 20px;
+   margin: 20px 0 0 20px;
+   border-radius: 8px;
 }
 
 .nav {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
 }
 
 .nav__list {
-    list-style-type: none;
-    padding: 0 20px;
+   list-style-type: none;
+   padding: 0 20px;
+   margin-block: 0;
 }
 
 .nav__item {
-    font-size: 14px;
-    padding: 12px 0;
+   font-size: 20px;
+   padding: 12px 0;
+   font-family: 'Fredoka One', cursive;
 }
 
 .nav a {
-    display: inline-block;
-    padding: 1.3em;
-    text-decoration: none;
-    color: #fff;
+   display: inline-block;
+   padding: 1.3em;
+   text-decoration: none;
+   color: #113f67;
 }
 
 .nav a:hover {
-    text-decoration: underline;
-    color: rgb(100, 100, 210);
+   font-weight: bolder;
+   color: #226597;
 }
 
 .nav a:active {
-    font-weight: bold;
-    color: #fcdab7;
-    text-decoration: none;
+   font-weight: bold;
+   color: #113f67;
+   text-decoration: none;
 }
 
 main {
-    width: 100%;
-    margin: 0 auto;
+   width: 96%;
+   margin: 0 auto;
 }
 
 #content {
-    max-width: 96%;
-    margin: 0 auto;
+   max-width: 96%;
+   margin: 0 auto;
 }
 
 .jumbotron {
-    width: 100%;
-    height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
+   width: 96%;
+   height: 400px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+   position: relative;
+   left: 2%;
 }
 
 .jumbotron img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
 }
 
 .jumbotron__title {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fcdab7;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 500;
-    font-size: 50px;
+   position: absolute;
+   top: 40%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+   text-align: right;
+   color: #f3f9fb;
+   font-family: 'Fredoka One', cursive;
+   font-weight: 500;
+   font-size: 60px;
 }
 
 .__label {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 32px;
-    font-weight: lighter;
-    text-align: center;
-    color: #fff;
+   font-family: 'Fredoka One', cursive;
+   font-size: 32px;
+   font-weight: lighter;
+   text-align: center;
+   color: #113f67;
 }
 
-.__label::after {
-    content: '';
-    margin-top: 16px;
-    display: block;
-    border-bottom: 2px solid #c0c0c0;
-}
+/* .__label::after {
+   content: '';
+   margin-top: 16px;
+   display: block;
+   border-bottom: 2px solid #204051;
+} */
 
 .noFavoriteData {
-    color: #fff;
-    text-align: center;
+   color: #113f67;
+   text-align: center;
 }
 
 .load_failed {
-    color: #fff;
-    text-align: center;
+   color: #113f67;
+   text-align: center;
 }
 
 .button {
-    border-radius: 5px;
-    background-color: #1d2d50;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 16px;
-    padding: 12px;
-    width: 105px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-left: auto;
+   border-radius: 5px;
+   background-color: #f3f9fb;
+   border: none;
+   text-align: center;
+   font-size: 16px;
+   padding: 12px;
+   width: 105px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin-left: auto;
 }
-  
+
 .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
 }
-  
+
 .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
 }
-  
+
 .button:hover span {
-    padding-right: 25px;
+   padding-right: 25px;
 }
-  
+
 .button:hover span:after {
-    opacity: 1;
-    right: 0;
+   opacity: 1;
+   right: 0;
 }
 
 a:link {
-    color: #FFFFFF;
+   color: #113f67;
 }
 
 a:hover {
-    color: #fcdab7;
+   color: #226597;
 }
 
 a:active {
-    text-decoration: none;
-    color: #fcdab7;
-    font-weight: bold;
+   text-decoration: none;
+   color: #87c0cd;
+   font-weight: bolder;
 }
 
 a:visited {
-    color: #fcdab7;
-    text-decoration: none;
-    font-weight: bold;
+   color: #113f67;
+   text-decoration: none;
 }
 
 .item {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-    background-color: #fcdab7;
-    color: #133b5c;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   overflow: hidden;
+   background-color: #87c0cd;
+   color: #113f67;
 }
 
 .item__content {
-    padding: 16px;
+   padding: 16px;
 }
 
 .item__header {
-    position: relative;
+   position: relative;
 }
 
 .item__thumbnail {
-    width: 100%;
-    height: 300px;
+   width: 100%;
+   height: 300px;
 }
 
-.item__rating{
-    position: absolute;
-    padding: 6px;
-    bottom: 40px;
-    left: 0;
-    display: inline-block;
-    font-size: 1.1em;
-    background-color: black;
-    color: white;
+.item__rating {
+   position: absolute;
+   padding: 6px;
+   bottom: 40px;
+   left: 0;
+   display: inline-block;
+   font-size: 1.1em;
+   background-color: black;
+   color: #f3f9fb;
 }
 
-.item__rating__score{
-    margin-left: 10px;
+.item__rating__score {
+   margin-left: 10px;
 }
 
 .item__title {
-    font-size: 24px;
-    margin-top: 12px;
-    transition: 0.3s opacity;
-}
-
-.item__title a {
-    text-decoration: none;
-    color: #133b5c;
-}
-
-.item__title a:hover {
-    text-decoration: underline;
-    color: rgb(100, 100, 210);
+   font-size: 24px;
+   margin-top: 12px;
+   transition: 0.3s opacity;
 }
 
 .item__city {
-    font-size: 16px;
+   font-size: 16px;
 }
 
 .item__description {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.5em;
-    text-align: justify;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
+   margin-top: 10px;
+   font-size: 14px;
+   line-height: 1.5em;
+   text-align: justify;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
    -webkit-line-clamp: 5; /* number of lines to show */
    -webkit-box-orient: vertical;
 }
 
 .item__detail {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 80%;
-    border-radius: 5px;
-    background-color: #fcdab7;
-    color: #133b5c;
-    margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 80%;
+   border-radius: 5px;
+   background-color: #87c0cd;
+   color: #113f67;
+   margin: auto;
 }
 
 .item__detail__thumbnail {
-    width: 100%;
-    height: 480px;
+   width: 100%;
+   height: 480px;
 }
 
-.item__detail__rating{
-    position: absolute;
-    padding: 6px;
-    bottom: 30px;
-    left: 0;
-    display: inline-block;
-    font-size: 1.1em;
-    background-color: black;
-    color: white;
+.item__detail__rating {
+   position: absolute;
+   padding: 6px;
+   bottom: 30px;
+   left: 0;
+   display: inline-block;
+   font-size: 1.1em;
+   background-color: black;
+   color: white;
 }
 
 .detail__description {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.5em;
-    text-align: justify;
+   margin-top: 10px;
+   font-size: 14px;
+   line-height: 1.5em;
+   text-align: justify;
 }
 
 .menu__section {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+   margin-top: 15px;
+   margin-bottom: 15px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
 }
 
 .review__section {
-    margin-top: 10px;
-    margin-left: 20px;
-    padding-left: 12px ;
-    border-left: 5px solid #133b5c;
+   margin-top: 10px;
+   margin-left: 20px;
+   padding-left: 12px;
+   border-left: 5px solid #113f67;
 }
 
 .like {
-    font-size: 26px;
-    position: fixed;
-    bottom: 16px;
-    right: 16px;
-    background-color: darkblue;
-    color: white;
-    border: 0;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   font-size: 26px;
+   position: fixed;
+   bottom: 16px;
+   right: 16px;
+   background-color: #226597;
+   color: white;
+   border: 0;
+   border-radius: 50%;
+   width: 55px;
+   height: 55px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 footer {
-    background-color: #1e5f74;
-    width: 100%;
-    text-align: center;
-    margin-top: 1em;
+   background-color: #f3f9fb;
+   width: 100%;
+   text-align: center;
+   margin-top: 1em;
 }
 
 footer p {
-    display: inline-block;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    color: #fff
+   display: inline-block;
+   font-family: 'Fredoka One', cursive;
+   font-size: 16px;
+   color: #113f67;
 }
